@@ -1,0 +1,426 @@
+.contact-container {
+    width: 100%;
+    height: auto;
+    overflow-x: hidden;
+}
+
+.contact-header {
+    width: 100%;
+    height: 70vh;
+    background: url('../../assets/top-view.jpeg');
+    object-fit: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 40%;
+    margin-top: -5%;
+}
+
+.contact-header-overlay {
+    background-color: rgba(1, 22, 44, 0.822);
+    width: 100%;
+    height: 70vh;
+}
+
+
+
+.contact-header-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 14%;
+}
+
+.contact-header-content-below {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.contact-header-content h1 {
+    font-size: 58px;
+    margin-top: 10%;
+    color: white;
+}
+
+.contact-header-content span {
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.contact-header-content span:hover {
+    color: rgb(19, 76, 109);
+}
+
+.contact-header-content p:hover {
+    color: rgb(19, 76, 109);
+}
+
+.contact-header-content p {
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.contact-header-svg {
+    color: white;
+    font-size: 17px;
+}
+
+
+.contact-body-address {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 180px;
+    margin: 50px;
+}
+
+.contact-call-icon {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-call-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.contact-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding-top: 5%;
+    background-color: rgb(229, 236, 241);
+
+}
+
+.contact-body-details {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    text-align: center;
+    align-items: center;
+
+}
+
+.contact-body-details p {
+    color: rgba(0, 0, 0, 0.815);
+}
+
+.contact-body2 {
+    display: flex;
+    width: 70%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 8%;
+    margin-left: 15%;
+    background-color: rgb(223, 225, 226);
+    padding-bottom: 60px;
+}
+
+.contact-input {
+    display: flex;
+    width: 100%;
+    height: auto;
+    padding: 20px 10px;
+    flex-direction: column;
+    text-align: center;
+    color: rgb(236, 225, 180);
+    background-color: rgb(23, 113, 129);
+
+}
+
+.contact-input p {
+    color: rgb(201, 191, 152);
+    ;
+}
+
+.form-tag {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 30px;
+
+}
+
+.input-container {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.form-tag-input {
+    width: 600px;
+    height: 50px;
+    border-radius: 12px;
+    padding-left: 12px;
+    border: none;
+    outline: none;
+
+}
+
+.form-tag-input:focus {
+    border: 1px solid rgb(28, 201, 231);
+}
+
+.form-tag-input-textarea {
+    width: 600px;
+    height: 180px;
+    border-radius: 12px;
+    padding: 12px 12px;
+    border: none;
+    outline: none;
+}
+
+.form-tag-input-textarea:focus {
+    border: 1px solid rgb(28, 201, 231);
+}
+
+.form-tag button {
+    width: 200px;
+    height: 50px;
+    font-weight: 600;
+    background-color: rgb(23, 113, 129);
+    color: white;
+    border: none;
+}
+
+.google-map {
+    width: 120%;
+}
+
+
+
+
+
+/*......... media querry.....*/
+
+@media (max-width:1115px) {
+    .contact-header-content {
+        top: 20%;
+    }
+
+    .contact-header-content h1 {
+        font-size: 48px;
+    }
+}
+
+@media (max-width:900px) {
+    .contact-header-content {
+        top: 25%;
+    }
+
+    .contact-header-content h1 {
+        font-size: 33px;
+    }
+
+    .contact-header-svg {
+        color: white;
+        font-size: 14px;
+    }
+
+    .contact-header span {
+        font-size: 11px;
+    }
+
+    .contact-header p {
+        font-size: 11px;
+    }
+
+    .contact-body-details h1 {
+        font-size: 26px;
+    }
+
+    .contact-body-details p {
+        font-size: 11px;
+    }
+
+    .contact-call-icon span {
+        font-size: 11px;
+    }
+
+    .nav-icons {
+        width: 22px;
+        height: 22px;
+        background-color: rgba(209, 231, 240, 0.473);
+        border-radius: 50%;
+        padding: 5px 5px;
+    }
+
+    .contact-body-address {
+        gap: 60px;
+        margin: 50px;
+    }
+
+
+    .contact-input h3{
+        font-size: 13px;
+    }
+    .contact-input h1{
+        font-size: 14px;
+    }
+    .contact-input p{
+        font-size: 11px;
+        padding: 0 20px;
+    }
+
+    .form-tag-input{
+    width: 500px;
+    height: 40px;
+}
+
+
+.form-tag-input-textarea {
+    width: 500px;
+    height: 140px;
+    border-radius: 12px;
+    padding: 12px 12px;
+    border: none;
+    outline: none;
+}
+
+.form-tag button {
+    width: 160px;
+    height: 40px;
+    font-size: 11px;
+}
+
+
+}
+
+
+@media (max-width:700px) {
+
+       .contact-header-content {
+        top: 8%;
+    }
+
+    .contact-header-content h1 {
+        font-size: 26px;
+    }
+
+    .contact-header-svg {
+        color: white;
+        font-size: 11px;
+    }
+
+    .contact-header span {
+        font-size: 10px;
+    }
+
+    .contact-header p {
+        font-size: 10px;
+    }
+    
+    .form-tag-input{
+    width: 350px;
+    height: 30px;
+}
+
+
+.form-tag-input-textarea {
+    width: 350px;
+    height: 120px;
+    border-radius: 12px;
+    padding: 12px 12px;
+    border: none;
+    outline: none;
+}
+
+
+.form-tag button {
+    width: 120px;
+    height: 30px;
+    font-size: 11px;
+}
+
+    .contact-call-icon span{
+        font-size: 9px;
+    }
+
+    .contact-body-details p {
+        font-size: 9px;
+    }
+
+        .contact-body-details h1{
+        font-size: 15px;
+    }
+
+    .contact-input p{
+        font-size: 9px;
+        padding: 0 20px;
+    }
+
+}
+
+@media (max-width:500px) {
+
+       .contact-header-content {
+        top: 8%;
+    }
+
+    .contact-header-content h1 {
+        font-size: 18px;
+        margin-top: 20%;
+    }
+
+    .contact-header-svg {
+        color: white;
+        font-size: 10px;
+    }
+
+    .contact-header span {
+        font-size: 8px;
+    }
+
+    .contact-header p {
+        font-size: 8px;
+    }
+    
+    .form-tag-input{
+    width: 220px;
+    height: 25px;
+}
+
+
+.form-tag-input-textarea {
+    width: 220px;
+    height: 120px;
+    border-radius: 12px;
+    padding: 12px 12px;
+    border: none;
+    outline: none;
+}
+
+
+.form-tag button {
+    width: 90px;
+    height: 30px;
+    font-size: 9px;
+}
+
+    .contact-call-icon span{
+        font-size: 6px;
+    }
+
+        .contact-input h3{
+        font-size: 8px;
+    }
+
+    .contact-body-address {
+        gap: 10px;
+    }
+
+
+}

@@ -1,0 +1,360 @@
+.app-container{
+    width: 100%;
+    height: auto;
+}
+
+.app-holder{
+    width: 85%;
+    height:35vw;
+    display: flex;
+    flex-direction: row;
+    padding: 6% 5%;
+    background-color: rgb(44, 43, 43);
+    margin: 10% 8%;
+
+}
+
+.app-details{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: auto;
+    color: white;
+    gap: 5px;
+}
+
+.app-details span{
+    font-size: 13px;
+}
+
+.app-details h2{
+    font-size: 28px;
+    width: 400px;
+}
+
+.app-details p{
+    font-size: 12px;
+    width: 550px;
+    color: rgba(255, 255, 255, 0.884);
+}
+
+.app-image{
+    display: flex;
+    flex-direction: row;
+    width: 600px;
+    align-items: center;
+    margin-left: -30px;
+
+}
+
+
+.android{
+  width: 250px;
+  height: 230px;
+}
+
+.apple{
+  width: 200px;
+  height: 100px;
+}
+
+.app-mobile{
+    width: 48%;
+     position: relative;
+}
+
+.app-mobile img{
+    width: 450px;
+    margin-top: 30px;
+}
+
+.pad-layer{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 125.7%;
+}
+
+
+
+
+
+/*......... media querry.....*/
+
+@media (max-width:1115px) {
+
+   .app-details p {
+    font-size: 12px;
+    width: 450px;
+}
+
+.app-details h2 {
+    font-size: 24px;
+    width: 400px;
+}
+
+.app-mobile img {
+    width: 350px;
+    margin-top: 30px;
+    margin-left: -60px;
+}
+
+.pad-layer {
+    width: 550px;
+    height: 80px;
+     margin-left: -60px;
+}
+
+}
+
+@media (max-width:1024px) {
+
+   .app-details p {
+    font-size: 11px;
+    width: 350px;
+}
+
+.app-details h2 {
+    font-size: 17px;
+    width: 350px;
+}
+
+.android {
+    width: 150px;
+    height: 130px;
+}
+
+.apple {
+    width: 120px;
+    height: 55px;
+}
+
+.app-mobile img {
+    width: 300px;
+    margin-top: 50px;
+    margin-left: -30%;
+}
+
+.pad-layer {
+    width: 550px;
+    height: 80px;
+     margin-left: -90px;
+}
+
+}
+
+@media (max-width:900px) {
+    
+.app-mobile img {
+    width: 250px;
+    margin-top: 50px;
+    margin-left: -70%;
+}
+
+
+.pad-layer {
+    width: 550px;
+    height: 80px;
+     margin-left: -190px;
+}
+
+
+}
+
+
+@media (max-width:800px) {
+
+   .app-details p {
+    font-size: 8px;
+    width: 300px;
+}
+
+.app-details span {
+    font-size: 9px;
+}
+
+.app-details h2 {
+    font-size: 11px;
+    width: 350px;
+}
+
+.android {
+    width: 150px;
+    height: 130px;
+}
+
+.apple {
+    width: 120px;
+    height: 55px;
+}
+    
+.app-mobile img {
+    width: 200px;
+    margin-top: 70px;
+    margin-left: -100%;
+}
+
+
+.pad-layer {
+    width: 550px;
+    height: 80px;
+     margin-left: -290px;
+}
+
+}
+
+@media (max-width:700px) {
+        
+.app-mobile img {
+    width: 170px;
+    margin-top: 70px;
+    margin-left: -150%;
+}
+
+
+.pad-layer {
+    width: 550px;
+    height: 80px;
+     margin-left: -290px;
+}
+
+}
+
+
+@media (max-width:600px) {
+
+   .app-details p {
+    font-size: 7px;
+    width: 200px;
+}
+
+.app-details span {
+    font-size: 8px;
+}
+
+.app-details h2 {
+    font-size: 10px;
+    width: 250px;
+}
+
+.android {
+    width: 100px;
+    height: 80px;
+}
+
+.apple {
+    width: 80px;
+    height: 35px;
+}
+    
+.app-mobile img {
+    width: 150px;
+    margin-top: 50px;
+    margin-left: -230%;
+}
+
+
+.pad-layer {
+    width: 550px;
+    height: 80px;
+     margin-left: -390px;
+}
+
+}
+
+@media (max-width:490px) {
+
+   .app-details p {
+    font-size: 6px;
+    width: 150px;
+}
+
+.app-details span {
+    font-size: 7px;
+}
+
+.app-details h2 {
+    font-size: 7px;
+    width: 200px;
+}
+
+.android {
+    width: 100px;
+    height: 80px;
+    margin-top: -4%;
+    margin-left: 1rem;
+}
+
+.apple {
+    width: 80px;
+    height: 35px;
+     margin-top: -4%;
+}
+    
+    .app-mobile img {
+        width: 130px;
+        margin-top: 0px;
+        margin-left: -280%;
+    }
+
+    .slick-slide img {
+       margin-left: 4rem;
+    }
+
+
+.pad-layer {
+    width: 550px;
+    height: 80px;
+     margin-left: -390px;
+}
+
+}
+
+
+@media (max-width:400px) {
+
+   .app-details p {
+    font-size: 6px;
+    width: 150px;
+}
+
+.app-details span {
+    font-size: 7px;
+}
+
+.app-details h2 {
+    font-size: 7px;
+    width: 200px;
+}
+
+.android {
+    width: 70px;
+    height: 40px;
+    margin-top: -2%;
+    margin-left: 2%;
+}
+
+.apple {
+    width: 60px;
+    height: 25px;
+     margin-top: -2%;
+}
+    
+.app-mobile img {
+    width: 70px;
+    margin-top: 70px;
+    margin-left: -540%;
+}
+
+
+.pad-layer {
+    width: 550px;
+    height: 80px;
+     margin-left: -390px;
+}
+
+}
+
+
+
